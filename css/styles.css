@@ -22,6 +22,7 @@ ul {
 }
 .link {
   text-decoration: none;
+  display: block;
 } /*убирает подчеркивания ссылок*/
 
 .container {
@@ -421,8 +422,9 @@ img {
   flex-wrap: wrap;
   margin: -15px;
 }
-.shadow:hover {
-  display: block;
+.projects-link:hover,
+.projects-link:focus {
+  /* display: block; */
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -459,8 +461,6 @@ img {
   align-items: baseline;
 }
 .right {
-  width: 206px;
-  height: 80px;
   margin-left: 70px;
 }
 .logo-clear {
